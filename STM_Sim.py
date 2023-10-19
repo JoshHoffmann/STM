@@ -196,3 +196,9 @@ plt.legend(framealpha=1).set_draggable(True)
 
 
 plt.show()
+
+# some final thoughts on how to extend/improve this model.
+# STM assumes a global strong voter threshold alpha that applies the same to each seat. This is probbaly not well reflected in realisty
+# Some seats are obviously much safer for certain parties than others. So the model could perhaps be imporved by accounting for regional
+# variability in alpha. However if one did want to assume a global alpha, some hypothesis testing and paramter estimation
+# could be implemented as part of a larger analysis to determine a more representative value of alpha.
